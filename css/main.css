@@ -1,0 +1,168 @@
+/*========overall site=========*/
+*{
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+body{
+	background-color: #B70010;
+}
+/*========site navigation=========*/
+div.home{
+	position: relative;
+	padding: 3%;
+	padding-top: 10%;
+	margin-bottom: 8%;
+	text-align: center;
+}
+div.Bin_locations{
+	position: relative;
+	padding: 3%;
+	padding-top: 10%;
+	margin-bottom: 8%;
+	text-align: center;
+}
+div.partners{
+	position: relative;
+	padding: 3%;
+	padding-top: 10%;
+	margin-bottom: 8%;
+	text-align: center;
+}
+div.contact{
+	position: relative;
+	padding: 3%;
+	padding-top: 10%;
+	margin-bottom: 8%;
+	text-align: center;
+}
+div.header a{
+	position: absolute;
+	text-decoration: none;
+	color: white;
+	background-color: grey;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	padding: 10%;
+	padding-bottom: 4%;
+}
+div.header a p{
+	margin-bottom: 10%;
+	padding: 0;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+div a:hover {
+	background-color: black;
+}
+div.header{
+	margin: 0;
+	padding-top: 3%;
+}
+div.form{
+	margin-top: 3%;
+}
+div.c{
+	margin-top: 3%;
+}
+div.text{
+	margin-top: 3%;
+	margin-left: 0;
+}
+/*========content=========*/
+h1{
+	padding: 3%;
+	border: solid;
+	border-color: #000000;
+	background-color: #1A468D;
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+}
+h4.home {
+	margin-top: 3%;
+	padding: 3%;
+	border: solid;
+	background-color: white;
+	font-family: 'Raleway', sans-serif;
+}
+p.home {
+	margin-top: 3%;
+	padding: 3%;
+	border: solid;
+	background-color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+p.des {
+	margin-top: 3%;
+	padding: 3%;
+	border: solid;
+	background-color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+ul.locations{
+	margin-top: 3%;
+	padding: 3%;
+	border: solid;
+	background-color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+p.list{
+	text-decoration: underline;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+li{
+	list-style-type: none;
+}
+img{
+	margin-top: 5%;
+	width: 100%;
+	border: solid;
+}
+img.bins{
+	margin-top: 3%;
+	width: 100%;
+	border: solid;
+}
+p{
+	display: flex;
+	font-family: 'Lato', sans-serif;
+}
+p.contact{
+	display: block;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+} 
+p.contact a{
+	text-decoration: none;
+	color: #000000;	
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+p.contact a:hover{
+	background-color: #ffffff;
+	color: blue;	
+	text-decoration: underline;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+p.contact {
+	margin-top: 3%;
+	padding: 3%;
+	border: solid;
+	background-color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+footer{
+	background-color: #000000;
+	display: block;
+}
+footer p.foot{
+	font-family: 'Lato', sans-serif;
+	color: grey;
+	padding: 1%;
+}
